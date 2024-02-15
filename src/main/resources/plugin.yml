@@ -1,0 +1,4 @@
+name: ScenarioSystemBySubscripted
+version: '${project.version}'
+main: dev.subscripted.scenariosystembysubscripted.Main
+api-version: '1.20'
