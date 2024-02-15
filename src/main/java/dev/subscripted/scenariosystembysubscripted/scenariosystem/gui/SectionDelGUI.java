@@ -1,7 +1,7 @@
 package dev.subscripted.scenariosystembysubscripted.scenariosystem.gui;
 
-import de.einsjustinnn.skyblock.scenariosystem.utils.ConfigHandler;
-import de.einsjustinnn.skyblock.scenariosystem.utils.ItemBuilder;
+import dev.subscripted.scenariosystembysubscripted.scenariosystem.utils.ConfigHandler;
+import dev.subscripted.scenariosystembysubscripted.scenariosystem.utils.ItemBuilder;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
