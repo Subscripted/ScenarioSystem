@@ -17,10 +17,11 @@ public class ConfigHandler {
     private static FileConfiguration config;
 
     public static void setupFiles(Main instance) {
-        configFile = new File(instance.getDataFolder(), "scenarioconfig.yml");
+        configFile = new File(instance.getDataFolder(), "config.yml");
+
 
         if (!configFile.exists()) {
-            instance.saveResource("scenarioconfig.yml", false);
+            instance.saveResource("config.yml", false);
         }
 
         config = YamlConfiguration.loadConfiguration(configFile);
